@@ -184,13 +184,6 @@ public class Individuo {
                 interesseTurma[j] = PopularTurmas.mapa.get(Salas[j][i]).getQtd_interesse();
             }
 
-
-            gosto = 9;
-
-//            if(interesseTurma1 == gosto && interesseTurma2 == gosto) aptidao -= 550;
-//            if(interesseTurma2 == gosto && interesseTurma3 == gosto) aptidao -= 550;
-//            if(interesseTurma1 == gosto && interesseTurma3 == gosto) aptidao -= 550;
-
             for(int x=0;x<PopularTurmas.qtdSalas;x++){
                 for(int y=0;y<PopularTurmas.qtdSalas;y++){
                     if(x==y) continue;

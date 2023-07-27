@@ -29,7 +29,7 @@ public class Main {
         int tamPop = PopularTurmas.qtdSalas*10;
 
         //numero máximo de gerações
-        int numMaxGeracoes = 1000;
+        int numMaxGeracoes = 100000;
 
         //define o número de genes do indivíduo baseado na solução
         int numGenes = (PopularTurmas.qtdSalas*20*PopularTurmas.bits);
